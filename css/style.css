@@ -3,9 +3,7 @@
     margin: 0;
 }
 
-.logo {
-    padding-left: 190px;
-}
+
 
 .header__menu {
     position: fixed;
@@ -676,7 +674,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 800px) {
     .header__connect {
         display: none;
     }
@@ -701,6 +699,10 @@ footer {
     .container {
         max-width: 400px;
     }
+
+    .logo {
+        padding-left: 190px;
+    }
 }
 
 @media screen and (max-width: 630px) {
@@ -712,5 +714,27 @@ footer {
 @media screen and (max-width: 520px) {
     .logo {
         padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo {
+        padding-left: 50px;
+    }
+
+    .header__menu {
+        width: 100%;
+    }
+
+    .buy__button-accent {
+        width: 200px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .buy__button-transparent {
+        width: 200px;
+        height: 50px;
+        padding: 0;
     }
 }
