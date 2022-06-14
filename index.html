@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cosmetic</title>
+</head>
+
+<body>
+    <div class="header__menu">
+        <img class="menu__icon" src="images/menu__icon.png" alt="menu">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="header__connect">
+            <div class="form">
+                <input class="header__form" type="text" placeholder="Search" name="search">
+                <button class="button"><img src="images/magnifier.png" alt=""></button>
+            </div>
+            <div class="menu_hov">
+                <img class="basket" src="images/basket.png" alt="basket">
+                <p class="dropdown">Cart</p>
+            </div>
+            <div class="menu_hov">
+                <img class="account" src="images/user__icon.png" alt="account">
+                <p class="dropdown">User</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu menu__visible">
+        <a href="#" class="link">Home</a>
+        <a href="#" class="link down">Shop All</a>
+        <a href="#" class="link drop">Our Story</a>
+        <a href="#" class="link">About Us</a>
+        <a href="#" class="link">Press</a>
+    </div>
+    <img class="header__img" src="images/header__img.png" alt="cosmetic">
+
+    <div class="description">
+        <h2 class="description__title">
+            We Make Feeling Comfortable in Your Own Skin Natural
+        </h2>
+        <p class="text">
+            Kal Hans symbolizes transformation.
+            Let's celebrate what makes you unique with our 100% all Natural, Vegan,
+            Luxury skincare line, getting you one step closer to being your best self.
+        </p>
+    </div>
+
+    <div class="catalog">
+        <h3 class="subtitle">The Skincare Essentials</h3>
+        <div class="products">
+            <div id="popupTrigger1" class="product js-open-popup">
+                <img src="images/product1.png" alt="product">
+                <h4 class="product__title">Hydrating Rose Petal Face Mist</h4>
+                <p class="product__price">$7.94</p>
+            </div>
+            <div class="overlay fade"></div>
+            <div id="popup1" class="popup fade">
+                <img class="popup__img" src="images/product1.png" alt="product">
+                <h4 class="product__title">Hydrating Rose Petal Face Mist</h4>
+                <p class="product__price">$7.94</p>
+                <button id="popupCloseButton1" class="close-button">
+                    <img src="images/close__icon.jpg" alt="close">
+                </button>
+            </div>
+
+            <div id="popupTrigger2" class="product js-open-popup">
+                <img src="images/product2.png" alt="product">
+                <h4 class="product__title">Rejuvenation & Repair Night Serum</h4>
+                <p class="product__price">$47.99</p>
+            </div>
+            <div id="popup2" class="popup fade">
+                <img class="popup__img" src="images/product2.png" alt="product">
+                <h4 class="product__title">Rejuvenation & Repair Night Serum</h4>
+                <p class="product__price">$47.99</p>
+                <button id="popupCloseButton2" class="close-button">
+                    <img src="images/close__icon.jpg" alt="close">
+                </button>
+            </div>
+
+            <div id="popupTrigger3" class="product js-open-popup">
+                <img src="images/product3.png" alt="product">
+                <h4 class="product__title">Kansa Wand</h4>
+                <p class="product__price">$32.45</p>
+            </div>
+            <div id="popup3" class="popup fade">
+                <img class="popup__img" src="images/product3.png" alt="product">
+                <h4 class="product__title">Kansa Wand</h4>
+                <p class="product__price">$32.45</p>
+                <button id="popupCloseButton3" class="close-button">
+                    <img src="images/close__icon.jpg" alt="close">
+                </button>
+            </div>
+
+            <div id="popupTrigger4" class="product js-open-popup">
+                <img src="images/product4.png" alt="product">
+                <h4 class="product__title">Aloe Cucumber Mist</h4>
+                <p class="product__price">$5.52</p>
+            </div>
+            <div id="popup4" class="popup fade">
+                <img class="popup__img" src="images/product4.png" alt="product">
+                <h4 class="product__title">Aloe Cucumber Mist</h4>
+                <p class="product__price">$5.52</p>
+                <button id="popupCloseButton4" class="close-button">
+                    <img src="images/close__icon.jpg" alt="close">
+                </button>
+            </div>
+
+            <div id="popupTrigger5" class="product js-open-popup">
+                <img src="images/product5.png" alt="product">
+                <h4 class="product__title">Skin Brightening Under Eye Cream</h4>
+                <p class="product__price">$32.80</p>
+            </div>
+            <div id="popup5" class="popup fade">
+                <img class="popup__img" src="images/product5.png" alt="product">
+                <h4 class="product__title">Skin Brightening Under Eye Cream</h4>
+                <p class="product__price">$32.80</p>
+                <button id="popupCloseButton5" class="close-button">
+                    <img src="images/close__icon.jpg" alt="close">
+                </button>
+            </div>
+
+            <div id="popupTrigger6" class="product js-open-popup">
+                <img src="images/product6.png" alt="product">
+                <h4 class="product__title">Daily Moisture Sun Protection Lotion</h4>
+                <p class="product__price">$13.46</p>
+            </div>
+            <div id="popup6" class="popup fade">
+                <img class="popup__img" src="images/product6.png" alt="product">
+                <h4 class="product__title">Daily Moisture Sun Protection Lotion</h4>
+                <p class="product__price">$13.46</p>
+                <button id="popupCloseButton6" class="close-button">
+                    <img src="images/close__icon.jpg" alt="close">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="qualities">
+        <img class="qualities__img" src="images/qualities.png" alt="product">
+        <div class="qualities__content">
+            <h3 class="qualities__title">Free from</h3>
+            <p class="qualities__text">GMO's</p>
+            <p class="qualities__text">Toxins</p>
+            <p class="qualities__text">Fillers</p>
+            <p class="qualities__text">Artificial Colours</p>
+            <p class="qualities__text">Synthetic Chemicals</p>
+            <p class="qualities__text">Artificial Fragrances</p>
+            <button class="qualities__button">Shop Green Beauty</button>
+        </div>
+    </div>
+
+    <div class="feedback">
+        <h3 class="subtitle">@kalhansnaturals</h3>
+        <p class="text">
+            Follow us to share snaps of you 💕 and your glowing skin
+            ✨🌿💧 & learn more about fun events, contests 🎁 and giveaways.
+        </p>
+        <div class="container">
+            <div class="slider">
+                <div class="slider__slides">
+                    <div class="slider__slide">
+                        <img class="slider__img" src="images/response1.png" alt="feedback">
+                        <div class="slider__description">
+                            <p class="slider__text">
+                                Beach babe @aliajashanmal 💕 makes sure her skin stays cool, protected and
+                                hydrated whether diving 🐳 laying by the
+                                beach 🏝 or hanging by the pool 👙 Check our all NEW Summer ☀️ Skincare Collection
+                                for
+                                multitasking skincare products
+                                that work whilst you play. Natural 🌿Vegan 🐰 & Sustainable 🌎 Skincare for
+                                beautiful
+                                luminous skin ✨Shop at
+                                www.kalhans.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <img class="slider__img" src="images/response2.png" alt="feedback">
+                        <div class="slider__description">
+                            <p class="slider__text">
+                                Our Daily Moisture Sun ☀️ Protection Lotion is a multi- tasking wonder. This
+                                3-in-one cream protects ☂ brightens ✨ and
+                                moisturizes 🌊skin for a luminous radiance. The light weight formulation
+                                effortlessly
+                                absorbs into your skin without
+                                leaving a trace while giving you a daily dose of revitalizing moisture and helping
+                                protect you from the sun and pollution.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <img class="slider__img" src="images/response3.png" alt="feedback">
+                        <div class="slider__description">
+                            <p class="slider__text">
+                                #Natural 🌿🌈💦 no filter kinda skin is what we're all about. Crush those
+                                skin goals and get healthy beautiful
+                                skin🧏🏽‍♀️ with our Natural Ayurvedic products. DM us with questions about your
+                                skin to
+                                learn more ✨💕 Photo:
+                                @nina.burman 🌸
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <img class="slider__img" src="images/response4.jpg" alt="feedback">
+                        <div class="slider__description">
+                            <p class="slider__text">
+                                Vacation ✈️ 🏝on the mind? Just because you can't travel right now doesn't mean you
+                                cant
+                                bring the luxe feel of vacation
+                                to you. Try our new Summer Skincare Collection ☀️ 🌈 👙 and transport yourself to
+                                the
+                                calm and relaxation you feel only
+                                on vacation. Shop now: www.kalhans.com🌿💕 Location: @thestandardmaldives ✨
+                                Creatives:
+                                @aliajashanmal 🌸
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <img class="slider__img" src="images/response5.jpg" alt="feedback">
+                        <div class="slider__description">
+                            <p class="slider__text">
+                                Use this simple Skincare Routine for Dry Skin and watch your skin’s look and texture
+                                transform🌿💕✨💦 ⭐️Step 1: Cleanse
+                                with a gentle antioxidant rich cleanser that doesn't strip your skin of oils. Drying
+                                face washes can do this and leave
+                                skin damaged. ⭐️Step 2: Tone with a deep hydrating toner that locks in moisture such
+                                as
+                                Hyaluronic Acid. Try our Aloe
+                                Cucumber Mist with Niacinamide that locks in moisture and exfoliates the top layer
+                                of
+                                dry and damaged skin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="button button_type_prev button__slider"> ❮ </button>
+                <button class="button button_type_next button__slider"> ❯ </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="buy">
+        <div class="buy__description">
+            <h3 class="subtitle">Skin Brightening Under Eye Cream</h3>
+            <p class="subtitle">$32.80</p>
+            <p class="text">
+                This lightweight adaptogenic blend with Licorice & Ashwagandha
+                root help lighten stubborn dark circles whilst calming
+                the area from stress related damage and wrinkles.
+            </p>
+            <div class="buy__buttons">
+                <button class="buy__button-accent">Add to cart</button>
+                <button class="buy__button-transparent">Buy it now</button>
+            </div>
+        </div>
+        <img class="buy__img" src="images/buy.png" alt="cosmetic">
+    </div>
+
+    <img class="partners__img" src="images/partners.png" alt="partners">
+
+    <div class="best">
+        <div class="best__content">
+            <h3 class="subtitle">Your Skin Deserves The Best!</h3>
+            <p class="text">
+                You have only one body and it deserves the best! Kal Hans brings you the highest quality,
+                nutrient rich natural ingredients to elevate your skincare routine and give you glowing skin.
+                Because the best makeup is NO makeup.
+            </p>
+        </div>
+        <img class="best__img" src="images/best.png" alt="cosmetic">
+    </div>
+
+    <div class="subscribe">
+        <h3 class="subscribe__title">KH Newsletter</h3>
+        <p class="subscribe__text">
+            Sign up to our newsletter and we’ll keep you up to date with the latest products,
+            sk
+            incare news and exclusive discounts!
+        </p>
+        <div class="subscribe__button_content">
+            <input class=" subscribe__form" type="email" placeholder="Your Email" name="email">
+            <button class="subscribe__button">Subscribe</button>
+        </div>
+    </div>
+
+    <div class="story">
+        <img class="story__img" src="images/story.png" alt="cosmetic">
+        <div class="story__content">
+            <h3 class="subtitle">Our Story</h3>
+            <p class="text">
+                Kal Hans is not a brand that strives for perfection but one that strives for the continual
+                betterment,
+                growth and confidence in one’s own skin.
+                After meeting with a severe accident in New York founder Lisa D'Mello created Kal Hans
+            </p>
+        </div>
+    </div>
+
+    <div class="blogs">
+        <h3 class="subtitle">The Naturalist Blog</h3>
+        <div class="blog__content">
+            <div class="blog">
+                <img src="images/blog1.png" alt="blog">
+                <h3 class="blog__title">Food For Your Skin: A Diet To Achieve Glowing Skin For Your Skin Type</h3>
+                <p class="date">Jan 08, 2021</p>
+                <p class="blog__text">
+                    Your skin is a reflection of your body’s overall health.
+                    When your skin looks dull and unkept it could be caused as a
+                    result of a poor diet, no exercise or bad skincare habits.
+                    Today we are going to tackle a healthy diet for natural glowing skin.
+                </p>
+                <div id="readTrigger1" class="add__blogtext add__blogtext_visible">
+                    All skin is different and it should be treated as such.
+                    A balanced diet is necessary for all skin types but certain
+                    foods can cause breakouts for already oily skin and certain
+                    foods can cause dehydration for already dry skin. So what
+                    should we include in our diet and what should we avoid?
+                </div>
+                <div class="points">...</div>
+            </div>
+            <div class="blog">
+                <img src="images/blog2.png" alt="blog">
+                <h3 class="blog__title">Hydrate Skin With These Hyaluronic Acid Rich Foods</h3>
+                <p class="date">Sep 07, 2020</p>
+                <p class="blog__text">
+                    In the last few years, there have been a lot of fast growing
+                    skincare ingredients but the one that has been the most
+                    popular so far is Hyaluronic acid. HA helps hydrate your skin
+                    by holding in over 1000x its weight in water.
+                </p>
+                <div id="readTrigger2" class="add__blogtext add__blogtext_visible">
+                    But, applying Hyaluronic acid directly to your face is not the only way!
+                    Hyaluronic acid foods and supplements can
+                    provide you with the Hyaluronic acid your skin needs.
+                </div>
+                <div class="points">...</div>
+            </div>
+            <div class="blog">
+                <img src="images/blog3.png" alt="blog">
+                <h3 class="blog__title">The Ultimate Skincare Acid Cheat Sheet</h3>
+                <p class="date">Aug 28, 2020</p>
+                <p class="blog__text">
+                    Skincare acids can often get confusing, but this cheat sheet
+                    will help show the differences between them. Skincare acids
+                    help encourage cell turnover
+                </p>
+                <div id="readTrigger3" class="add__blogtext add__blogtext_visible">
+                    (which is the process of old cells
+                    shedding and new cells coming through) which then helps
+                    improve skin texture and even out skin tone. Between the two main skincare acids,
+                    there are other uses that can help target additional skincare concerns.
+                </div>
+                <div class="points">...</div>
+            </div>
+        </div>
+    </div>
+
+    <video controls>
+        <source src="images/kalhans_video.mp4" type="video/mp4">
+    </video>
+
+    <div class="location">
+        <div class="location__content">
+            <div class="contact__inf">
+                <img src="images/icon_location.png" alt="letter">
+                <p class="subscribe__text">
+                    Bandra West, Mumbai, Maharashtra 400050
+                </p>
+            </div>
+            <div class="contact__inf">
+                <img src="images/icon_letter.png" alt="letter">
+                <p class="subscribe__text">customerservice@kalhans.com</p>
+            </div>
+            <div class="contact__inf">
+                <img src="images/icon_phone.png" alt="letter">
+                <p class="subscribe__text">
+                    0917 270 1000
+                </p>
+            </div>
+        </div>
+        <script async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5e34f1424c601c819e93914ab93ddb703f3d3c2c60ac72bee31c9f2bddd3705c&amp;width=400&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+
+    <footer>
+        <div class="links">
+            <div class="footer__links_column">
+                <a href="#" class="footer__link">About Us</a>
+                <a href="#" class="footer__link">Contact Us</a>
+                <a href="#" class="footer__link">Product</a>
+                <a href="#" class="footer__link">Blog</a>
+            </div>
+            <div class="footer__links_column">
+                <a href="#" class="footer__link">Search</a>
+                <a href="#" class="footer__link">Privacy Policy</a>
+                <a href="#" class="footer__link">Terms of Service</a>
+                <a href="#" class="footer__link">Refund Policy</a>
+            </div>
+        </div>
+        <div class="footer__networks">
+            <a href=""><img src="images/facebook.png" alt="facebook"></a>
+            <a href=""><img src="images/instagram.png" alt="instagram"></a>
+        </div>
+        <p class="footer__c">© 2022 Kal Hans Naturals</p>
+        <div class="sponsors">
+            <div class="sponsor__column">
+                <img src="images/sponsor1.png" alt="sponsor">
+                <img src="images/sponsor2.png" alt="sponsor">
+                <img src="images/sponsor3.png" alt="sponsor">
+                <img src="images/sponsor4.png" alt="sponsor">
+                <img src="images/sponsor5.png" alt="sponsor">
+            </div>
+            <div class="sponsor__column">
+                <img src="images/sponsor6.png" alt="sponsor">
+                <img src="images/sponsor7.png" alt="sponsor">
+                <img src="images/sponsor8.png" alt="sponsor">
+                <img src="images/sponsor9.png" alt="sponsor">
+                <img src="images/sponsor10.png" alt="sponsor">
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
