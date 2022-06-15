@@ -93,3 +93,5 @@ function initPopup() {
         })
     );
 }
+
+ AOS.init();
