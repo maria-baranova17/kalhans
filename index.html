@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Cosmetic</title>
 </head>
@@ -43,10 +44,10 @@
     <img class="header__img" src="images/header__img.png" alt="cosmetic">
 
     <div class="description">
-        <h2 class="description__title">
+        <h2 data-aos="fade-up" class="description__title">
             We Make Feeling Comfortable in Your Own Skin Natural
         </h2>
-        <p class="text">
+        <p data-aos="fade-up" class="text">
             Kal Hans symbolizes transformation.
             Let's celebrate what makes you unique with our 100% all Natural, Vegan,
             Luxury skincare line, getting you one step closer to being your best self.
@@ -85,7 +86,7 @@
                 </button>
             </div>
 
-            <div id="popupTrigger3" class="product js-open-popup">
+            <div " id=" popupTrigger3" class="product js-open-popup">
                 <img src="images/product3.png" alt="product">
                 <h4 class="product__title">Kansa Wand</h4>
                 <p class="product__price">$32.45</p>
@@ -144,8 +145,8 @@
     </div>
 
     <div class="qualities">
-        <img class="qualities__img" src="images/qualities.png" alt="product">
-        <div class="qualities__content">
+        <img data-aos="fade-right" class="qualities__img" src="images/qualities.png" alt="product">
+        <div data-aos="fade-left" class="qualities__content">
             <h3 class="qualities__title">Free from</h3>
             <p class="qualities__text">GMO's</p>
             <p class="qualities__text">Toxins</p>
@@ -166,7 +167,7 @@
         <div class="container">
             <div class="slider">
                 <div class="slider__slides">
-                    <div class="slider__slide">
+                    <div data-aos="fade-zoom-in" class="slider__slide">
                         <img class="slider__img" src="images/response1.png" alt="feedback">
                         <div class="slider__description">
                             <p class="slider__text">
@@ -182,7 +183,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="slider__slide">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" class="slider__slide">
                         <img class="slider__img" src="images/response2.png" alt="feedback">
                         <div class="slider__description">
                             <p class="slider__text">
@@ -196,7 +197,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="slider__slide">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400"
+                        class="slider__slide">
                         <img class="slider__img" src="images/response3.png" alt="feedback">
                         <div class="slider__description">
                             <p class="slider__text">
@@ -253,9 +255,9 @@
 
     <div class="buy">
         <div class="buy__description">
-            <h3 class="subtitle">Skin Brightening Under Eye Cream</h3>
-            <p class="subtitle">$32.80</p>
-            <p class="text">
+            <h3 data-aos="fade-up" class="subtitle">Skin Brightening Under Eye Cream</h3>
+            <p data-aos="fade-up" class="subtitle">$32.80</p>
+            <p data-aos="fade-up" class="text">
                 This lightweight adaptogenic blend with Licorice & Ashwagandha
                 root help lighten stubborn dark circles whilst calming
                 the area from stress related damage and wrinkles.
@@ -272,8 +274,8 @@
 
     <div class="best">
         <div class="best__content">
-            <h3 class="subtitle">Your Skin Deserves The Best!</h3>
-            <p class="text">
+            <h3 data-aos="fade-up" class="subtitle">Your Skin Deserves The Best!</h3>
+            <p data-aos="fade-up" class="text">
                 You have only one body and it deserves the best! Kal Hans brings you the highest quality,
                 nutrient rich natural ingredients to elevate your skincare routine and give you glowing skin.
                 Because the best makeup is NO makeup.
@@ -298,8 +300,8 @@
     <div class="story">
         <img class="story__img" src="images/story.png" alt="cosmetic">
         <div class="story__content">
-            <h3 class="subtitle">Our Story</h3>
-            <p class="text">
+            <h3 data-aos="fade-up" class="subtitle">Our Story</h3>
+            <p data-aos="fade-up" class="text">
                 Kal Hans is not a brand that strives for perfection but one that strives for the continual
                 betterment,
                 growth and confidence in one’s own skin.
@@ -311,7 +313,7 @@
     <div class="blogs">
         <h3 class="subtitle">The Naturalist Blog</h3>
         <div class="blog__content">
-            <div class="blog">
+            <div data-aos="zoom-in" class="blog">
                 <img src="images/blog1.png" alt="blog">
                 <h3 class="blog__title">Food For Your Skin: A Diet To Achieve Glowing Skin For Your Skin Type</h3>
                 <p class="date">Jan 08, 2021</p>
@@ -330,7 +332,7 @@
                 </div>
                 <div class="points">...</div>
             </div>
-            <div class="blog">
+            <div data-aos="zoom-in" class="blog">
                 <img src="images/blog2.png" alt="blog">
                 <h3 class="blog__title">Hydrate Skin With These Hyaluronic Acid Rich Foods</h3>
                 <p class="date">Sep 07, 2020</p>
@@ -347,7 +349,7 @@
                 </div>
                 <div class="points">...</div>
             </div>
-            <div class="blog">
+            <div data-aos="zoom-in" class="blog">
                 <img src="images/blog3.png" alt="blog">
                 <h3 class="blog__title">The Ultimate Skincare Acid Cheat Sheet</h3>
                 <p class="date">Aug 28, 2020</p>
@@ -431,6 +433,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
 </body>
 
